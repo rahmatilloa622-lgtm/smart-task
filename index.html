@@ -1,0 +1,82 @@
+	<!DOCTYPE html>
+	<html lang="uz">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body>
+		
+	<header>
+
+		<h1>Smart Task</h1>
+		<p>Kichik vazifalar — katta natijalar</p>
+
+	</header>
+
+	<aside>
+		<h2>Smart task</h2>
+
+		<nav>
+			<ul>
+				<li><a href="#">Bosh sahifa</a></li>
+				<li><a href="#">Bajarilganlar</a></li>
+				<li><a href="#">Sozlamalar</a></li>
+			</ul>
+		</nav>
+	</aside>
+
+		<main>
+			<h1>Mening vazifalarim</h1>
+			<p>Kuningni yaxshi rejalashtir!</p>
+
+			<form id="task-form">
+				<input type="text" id="task-input" placeholder="Yangi vazifa qo‘shing...">
+				<button>Qo‘shish</button>
+			</form>
+			<input
+  			type="text"
+ 				 id="search-input"
+  			placeholder="Vazifani qidirish...">
+			<div id="task-filters">
+ 			 <button type="button" data-filter="all">Barchasi</button>
+  		<button type="button" data-filter="active">Bajarilmagan</button>
+ 			 <button type="button" data-filter="completed">Bajarilgan</button>
+			</div>
+			<section id="task-list">
+				<div>
+					<input type="checkbox">
+					<h3>JavaScript o‘rganish</h3>
+					<button>O‘chirish</button>
+				</div>
+				<div>
+					<input type="checkbox">
+					<h3>Sport bilan shug‘ullanish</h3>
+					<button>O‘chirish</button>
+				</div>
+				<div>
+					<input type="checkbox">
+					<h3>Kitob o‘qish</h3>
+					<button>O‘chirish</button>
+				</div>
+					
+			</section>
+
+			<section>
+			<p>Jami vazifalar: <span id="total-tasks">3</span></p>
+			<p>Bajarilgan: <span id="completed-tasks">0</span></p>
+	</section>
+		</main>
+
+
+
+			
+
+
+
+
+
+		<script src="main.js"></script>
+	</body>
+	</html>
